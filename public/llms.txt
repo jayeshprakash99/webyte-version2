@@ -1,0 +1,9 @@
+# Webyte Solutions
+
+> Full-service digital marketing agency delivering web development, design, SEO, and social campaigns. Tagline: Fueling Your Success.
+
+Webyte Solutions partners with ambitious brands to grow their digital presence through strategy, design, and code.
+
+## Pages
+
+- [Home](/): Overview of services, portfolio, process, testimonials, and contact.
