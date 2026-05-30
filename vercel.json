@@ -6,12 +6,12 @@
       "config": { "distDir": "dist/client" }
     },
     {
-      "src": "dist/server/server.js",
+      "src": "dist/server/index.mjs",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/dist/server/server.js" }
+    { "src": "/(.*)", "dest": "/dist/server/index.mjs" }
   ]
 }
