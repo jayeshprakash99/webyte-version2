@@ -1,6 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "dist/client"
+  # Leave empty to publish the repo root where your index.html is located.
+  command = ""
+  publish = "."
 
 [[redirects]]
   from = "/*"
