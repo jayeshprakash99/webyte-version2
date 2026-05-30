@@ -1,9 +1,10 @@
 [build]
-  # Leave empty to publish the repo root where your index.html is located.
+  # No build step — we publish the repo root where index.html is located.
   command = ""
   publish = "."
 
 [[redirects]]
+  # SPA fallback: serve index.html for all routes
   from = "/*"
   to = "/index.html"
   status = 200
